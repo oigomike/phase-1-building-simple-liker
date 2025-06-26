@@ -64,3 +64,16 @@ article.media-post > footer ul {
 .hidden {
   visibility: hidden;
 }
+.hidden {
+  display: none;
+}
+
+.modal {
+  position: fixed;
+  top: 30%;
+  left: 30%;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 1em;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
